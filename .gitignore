@@ -1,0 +1,11 @@
+﻿*.bak
+*.trn
+*.mdf
+*.ldf
+*.ndf
+*.rptproj.user
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.log
