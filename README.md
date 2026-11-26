@@ -14,6 +14,10 @@ En el sector gastronómico y de restobares, el control de operaciones, ventas, c
 
 ## Vista previa del dashboard
 
+<img width="1116" height="876" alt="image" src="https://github.com/user-attachments/assets/5d0833d0-abac-48cf-a9ad-46468f578a5e" />
+<img width="1117" height="663" alt="image" src="https://github.com/user-attachments/assets/851a61d6-63b8-4c61-ab5b-f969db5d69c7" />
+<img width="1116" height="715" alt="image" src="https://github.com/user-attachments/assets/63e0806b-ae4b-4f5a-8916-0810852c3d84" />
+<img width="1150" height="780" alt="image" src="https://github.com/user-attachments/assets/b14a5d6b-5e1c-4f1d-80ad-cbc37e88be3e" />
 
 
 ## Guía de ejecución y uso
