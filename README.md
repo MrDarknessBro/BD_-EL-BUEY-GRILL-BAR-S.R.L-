@@ -14,11 +14,7 @@ En el sector gastronómico y de restobares, el control de operaciones, ventas, c
 
 ## Vista previa del dashboard
 
-> Puedes incorporar aquí capturas de pantalla de tus páginas principales en Power BI (por ejemplo, subiendo `dashboard_ventas.png` o `dashboard_resumen.png` al repositorio):
->
-> `![Dashboard General - El Buey Grill Bar](dashboard_resumen.png)`
 
-*(Opcional)* **Enlace interactivo:** `[Abrir reporte en Power BI](PEGAR_ENLACE_AQUI)`
 
 ## Guía de ejecución y uso
 
