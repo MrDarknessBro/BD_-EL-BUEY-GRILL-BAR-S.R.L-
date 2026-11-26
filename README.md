@@ -1,24 +1,39 @@
 ﻿# BD - El Buey Grill Bar S.R.L.
 
-Repositorio del proyecto de base de datos, procesamiento de datos y Business Intelligence aplicado a **El Buey Grill Bar S.R.L.**
+Proyecto académico y aplicado de ingeniería de datos, modelado y Business Intelligence desarrollado para **El Buey Grill Bar S.R.L.** El objetivo central del repositorio es consolidar la base de datos operativa, automatizar el procesamiento y transformación de datos, y construir tableros analíticos que apoyen la toma de decisiones del negocio.
 
-## Contenido del repositorio
+## Descripción del proyecto
 
-* **Base de datos y scripts SQL:** Respaldo (`buey.bak`), scripts DDL/DML, rutinas ETL, funciones, triggers y vistas en SQL Server.
-* **Procesamiento con PySpark (`PySpark_el_buey.ipynb`):** Notebook de análisis y transformación de datos con Apache Spark / PySpark.
-* **Dashboard en Power BI (`BIRESTAURANTE.pbix`):** Archivo interactivo de inteligencia de negocios (requiere descargarse y abrirse en Power BI Desktop, ya que GitHub no renderiza archivos `.pbix` directamente).
-* **Informe final (`2026-2_ISC-Informe_Proyecto_Final_BASAV2.pdf`):** Documento técnico del proyecto disponible para lectura directa en el navegador.
+En el sector gastronómico y de restobares, el control de operaciones, ventas, clientes, productos y movimiento diario requiere contar con datos confiables y estructurados. Este repositorio reúne los componentes técnicos del sistema de información y analítica de **El Buey Grill Bar S.R.L.**, articulando desde la estructura relacional y rutinas SQL hasta el procesamiento distribuido con PySpark y la visualización ejecutiva en Power BI.
+
+## Arquitectura y componentes
+
+* **Base de datos y programación SQL (`SQL Server`):** Respaldo de base de datos (`buey.bak`), scripts DDL y DML, procesos ETL, funciones, triggers y vistas orientados a garantizar la integridad de la información y facilitar la explotación analítica.
+* **Procesamiento y análisis con PySpark (`PySpark_el_buey.ipynb`):** Cuaderno interactivo enfocado en la carga, limpieza, transformación y análisis de datos utilizando Apache Spark / PySpark.
+* **Business Intelligence y visualización (`BIRESTAURANTE.pbix`):** Modelo analítico y dashboard interactivo en Power BI diseñado para monitorear indicadores clave y tendencias del negocio (se recomienda descargar el archivo mediante **View raw** y abrirlo en **Power BI Desktop** para interactuar con los filtros y visualizaciones).
 
 ## Vista previa del dashboard
 
-> Agrega aquí tus capturas de pantalla (por ejemplo, subiendo `dashboard_general.png` al repo) para mostrar los gráficos directamente en la portada:
+> Puedes incorporar aquí capturas de pantalla de tus páginas principales en Power BI (por ejemplo, subiendo `dashboard_ventas.png` o `dashboard_resumen.png` al repositorio):
 >
-> `![Vista General del Dashboard](dashboard_general.png)`
+> `![Dashboard General - El Buey Grill Bar](dashboard_resumen.png)`
 
-*(Opcional)* **Enlace interactivo en Power BI:** `[Ver reporte publicado aquí](PEGAR_ENLACE_AQUI)`
+*(Opcional)* **Enlace interactivo:** `[Abrir reporte en Power BI](PEGAR_ENLACE_AQUI)`
 
-## Cómo usar este proyecto
+## Guía de ejecución y uso
 
-1. **Restaurar la base de datos:** Abre SQL Server Management Studio (SSMS) y restaura el respaldo de la base de datos de El Buey Grill Bar S.R.L.
-2. **Ejecutar el análisis en PySpark:** Abre `PySpark_el_buey.ipynb` en Google Colab o Jupyter/VS Code y ejecuta las celdas en orden.
-3. **Explorar el reporte BI:** Descarga `BIRESTAURANTE.pbix` mediante **View raw** y ábrelo en **Power BI Desktop**, o consulta la versión de lectura rápida en `2026-2_ISC-Informe_Proyecto_Final_BASAV2.pdf`.
+1. **Base de datos en SQL Server:**
+   * Abre **SQL Server Management Studio (SSMS)** y conéctate a tu instancia de SQL Server.
+   * Restaura el respaldo de la base de datos y ejecuta o revisa los scripts correspondientes (DDL/DML, ETL, vistas, funciones y triggers) según el entorno de pruebas.
+2. **Notebook con PySpark:**
+   * Abre `PySpark_el_buey.ipynb` en **Google Colab**, **Jupyter** o **Visual Studio Code**.
+   * Verifica la disponibilidad del entorno de Spark/PySpark y ejecuta las celdas de forma secuencial para replicar el procesamiento y los resultados.
+3. **Tablero en Power BI:**
+   * Descarga `BIRESTAURANTE.pbix` desde el repositorio usando **View raw**.
+   * Ábrelo con **Power BI Desktop**, revisa las conexiones/orígenes de datos si es necesario y explora las páginas del informe.
+
+## Tecnologías y herramientas
+
+* **Motor de base de datos y BI:** Microsoft SQL Server, T-SQL, Power BI Desktop
+* **Procesamiento de datos:** Python, Apache Spark / PySpark
+* **Control de versiones:** Git y GitHub
